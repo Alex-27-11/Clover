@@ -1,0 +1,75 @@
+@import "../../utils/mixins";
+
+.android {
+  @include flex-column-center;
+  padding: 35px 0px 40px 0px;
+  overflow: hidden;
+  @media (min-width: 768px) {
+    padding: 54px 0px 80px 0px;
+  }
+  @media (min-width: 1366px) {
+    padding: 69px 0px 80px 0px;
+  }
+  &__container {
+  }
+  &__title {
+    margin-bottom: 55px;
+    text-align: center;
+    max-width: 813px;
+    transition-property: transform;
+    transition-duration: 2s;
+  }
+  &__body {
+    position: relative;
+    padding-top: 85px;
+    transition-property: transform;
+    transition-duration: 2s;
+    @media (min-width: 768px) {
+      padding-top: 105px;
+    }
+    @media (min-width: 1366px) {
+      padding-top: 0px;
+    }
+  }
+  &__body-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    @include flex-row-center;
+    width: 176px;
+    height: 98px;
+    gap: 10px;
+    border-radius: 14px 14px 14px 0px;
+    background: #fff;
+    box-shadow: 0px 40px 40px 0px rgba(175, 175, 175, 0.25);
+    @media (min-width: 768px) {
+      width: 372px;
+      height: 151px;
+      gap: 32px;
+    }
+    @media (min-width: 1366px) {
+      top: 34px;
+      right: 109px;
+    }
+  }
+  &__body-text-inner {
+    width: 148px;
+    color: #3c4353;
+    line-height: 150%;
+    @media (min-width: 768px) {
+      width: 309px;
+      height: 87px;
+      font-size: 18px;
+    }
+  }
+  &__body-text-inner span {
+  }
+  &__body-imgBox {
+    margin: 0px -62px 0px -43px;
+    @media (min-width: 1366px) {
+      margin: 0px 0px 0px 0px;
+    }
+  }
+  &__body-img {
+  }
+}

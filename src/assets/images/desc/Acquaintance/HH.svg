@@ -1,0 +1,76 @@
+<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1336523141">
+<g id="Clip path group">
+<mask id="mask0_2245_340" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="46" height="46">
+<g id="clip-path-5">
+<g id="Clip path group_2">
+<mask id="mask1_2245_340" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="46" height="46">
+<g id="clip-path-2">
+<g id="Clip path group_3">
+<mask id="mask2_2245_340" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="46" height="46">
+<g id="clip-path">
+<path id="Vector" d="M46 0H0V46H46V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask2_2245_340)">
+<path id="Vector_2" d="M23 46C27.549 46 31.9958 44.6511 35.7781 42.1238C39.5604 39.5966 42.5084 36.0044 44.2492 31.8017C45.99 27.599 46.4455 22.9745 45.5581 18.5129C44.6706 14.0514 42.4801 9.95317 39.2635 6.73656C36.0469 3.51996 31.9486 1.3294 27.4871 0.441943C23.0255 -0.445517 18.401 0.00998239 14.1983 1.7508C9.99557 3.49161 6.40347 6.43955 3.8762 10.2219C1.34892 14.0042 0 18.4511 0 23C0 29.1 2.4232 34.9501 6.73654 39.2635C11.0499 43.5768 16.9 46 23 46Z" fill="white"/>
+</g>
+</g>
+</g>
+</mask>
+<g mask="url(#mask1_2245_340)">
+<path id="Vector_3" d="M-109.02 -586.5H350.98V949.9H-109.02V-586.5Z" fill="white"/>
+</g>
+</g>
+</g>
+</mask>
+<g mask="url(#mask0_2245_340)">
+<g id="Group">
+<path id="Vector_4" d="M48.2999 -2.2998H-2.30005V48.3002H48.2999V-2.2998Z" fill="#DF0016"/>
+</g>
+</g>
+</g>
+<g id="Clip path group_4">
+<mask id="mask3_2245_340" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="9" y="12" width="13" height="21">
+<g id="clip-path-6">
+<g id="Clip path group_5">
+<mask id="mask4_2245_340" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="46" height="46">
+<g id="clip-path_2">
+<path id="Vector_5" d="M46 0H0V46H46V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask4_2245_340)">
+<path id="Vector_6" d="M12.8523 12.1602V19.9802C14.0414 18.5588 15.4697 17.8434 17.1257 17.8434C17.9192 17.8319 18.7052 17.9985 19.4257 18.331C20.0426 18.5963 20.577 19.022 20.9736 19.5638C21.3215 20.0655 21.5634 20.6329 21.6843 21.2313C21.8374 22.1669 21.9013 23.115 21.8752 24.0627V32.43H18.1699V24.8952C18.1699 23.4002 18.1032 22.4527 17.9629 22.0502C17.8298 21.6562 17.5671 21.3189 17.2177 21.0933C16.8202 20.8399 16.3548 20.7139 15.8837 20.7322C15.3033 20.7229 14.7326 20.8827 14.2415 21.1922C13.7399 21.5171 13.3649 22.0042 13.1789 22.5722C12.9535 23.1855 12.8423 24.0918 12.8454 25.2908V32.4346H9.15161V12.1624H12.8523" fill="white"/>
+</g>
+</g>
+</g>
+</mask>
+<g mask="url(#mask3_2245_340)">
+<g id="Group_2">
+<path id="Vector_7" d="M24.1777 9.86035H6.85181V34.7325H24.1777V9.86035Z" fill="white"/>
+</g>
+</g>
+</g>
+<g id="Clip path group_6">
+<mask id="mask5_2245_340" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="23" y="12" width="14" height="21">
+<g id="clip-path-7">
+<g id="Clip path group_7">
+<mask id="mask6_2245_340" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="46" height="46">
+<g id="clip-path_3">
+<path id="Vector_8" d="M46 0H0V46H46V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask6_2245_340)">
+<path id="Vector_9" d="M27.4252 12.16V19.98C28.6166 18.5586 30.0411 17.8464 31.6986 17.8433C32.492 17.833 33.2777 17.9995 33.9986 18.3309C34.6134 18.5974 35.1461 19.023 35.5419 19.5637C35.8889 20.0659 36.1306 20.6331 36.2526 21.2312C36.4045 22.1669 36.4684 23.1149 36.4435 24.0625V32.4299H32.752V24.8951C32.752 23.4001 32.6822 22.4517 32.5427 22.05C32.4096 21.656 32.1469 21.3187 31.7975 21.0932C31.3993 20.8394 30.933 20.7134 30.4612 20.7321C29.8815 20.7232 29.3118 20.883 28.8213 21.1921C28.3216 21.519 27.9471 22.0054 27.7587 22.5721C27.5379 23.1854 27.4267 24.0916 27.4252 25.2907V32.4299H23.7268V12.1577H27.4252" fill="white"/>
+</g>
+</g>
+</g>
+</mask>
+<g mask="url(#mask5_2245_340)">
+<g id="Group_3">
+<path id="Vector_10" d="M38.7481 9.86035H21.4268V34.7325H38.7481V9.86035Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

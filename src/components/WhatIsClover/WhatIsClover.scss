@@ -1,0 +1,144 @@
+@import "../../utils/mixins";
+
+.whatIsClover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 40px;
+  background:
+    url("../../assets/images/mobil/WhatIsClover/greyLine.png") -200px 155px/1100px
+      560px no-repeat,
+    url("../../assets/images/mobil/WhatIsClover/iPhone\ 12\ Pro\ \(Wooden\ Hands\).png")
+      100% 170px no-repeat,
+    url("../../assets/images/mobil/WhatIsClover/зеленые\ линии.png") -350px -40px/1100px
+      700px no-repeat,
+    url("../../assets/images/desc/WhatIsClover/backClovers.png");
+  @media (min-width: 768px) {
+    background:
+      url("../../assets/images/mobil/WhatIsClover/greyLine.png") -200px 545px/2755px
+        759px no-repeat,
+      url("../../assets/images/tabl/WhatIsClover/iPhone\ 12\ Pro\ \(Wooden\ Hands\).png")
+        100% 250px no-repeat,
+      url("../../assets/images/mobil/WhatIsClover/зеленые\ линии.png") -750px -40px/2198px
+        1205px no-repeat,
+      url("../../assets/images/desc/WhatIsClover/backClovers.png");
+    padding-bottom: 100px;
+  }
+  @media (min-width: 1030px) {
+    background:
+      url("../../assets/images/mobil/WhatIsClover/greyLine.png") -200px 545px/2755px
+        759px no-repeat,
+      url("../../assets/images/tabl/WhatIsClover/iPhone\ 12\ Pro\ \(Wooden\ Hands\).png")
+        100% 350px no-repeat,
+      url("../../assets/images/mobil/WhatIsClover/зеленые\ линии.png") -750px -40px/2198px
+        1205px no-repeat,
+      url("../../assets/images/desc/WhatIsClover/backClovers.png");
+    padding-bottom: 100px;
+  }
+  @media (min-width: 1366px) {
+    background:
+      url("../../assets/images/mobil/WhatIsClover/greyLine.png") -500px 620px/2755px
+        759px no-repeat,
+      url("../../assets/images/desc/WhatIsClover/iPhone\ 12\ Pro\ \(Wooden\ Hands\).png")
+        1033px 100px no-repeat,
+      url("../../assets/images/desc/WhatIsClover/листочек.png") 940px -14px no-repeat,
+      url("../../assets/images/mobil/WhatIsClover/зеленые\ линии.png") -400px -20px/2649px
+        1501px no-repeat,
+      url("../../assets/images/desc/WhatIsClover/backClovers.png");
+    padding-bottom: 125px;
+  }
+  &__container {
+  }
+  &__inner {
+    align-self: start;
+    @media (min-width: 1366px) {
+      width: 100%;
+    }
+  }
+  &__images {
+    margin: 90px 0px 240px 0px;
+    @media (min-width: 768px) {
+      margin: 350px 0px 345px 0px;
+    }
+    @media (min-width: 1366px) {
+      margin: 350px 0px 455px 0px;
+    }
+  }
+  &__imgLogo {
+  }
+  &__imgLogo-tabl {
+  }
+  &__imgLogo-desc {
+  }
+  &__text {
+    color: #fff;
+    @include flex-column-center;
+    align-items: flex-start;
+    @media (min-width: 1366px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  &__text-top {
+  }
+  &__line {
+    margin-bottom: 10px;
+    @media (min-width: 768px) {
+      margin-bottom: 30px;
+    }
+    @media (min-width: 1366px) {
+      margin-bottom: 35px;
+    }
+  }
+  &__title {
+    max-width: 140px;
+    margin-bottom: 15px;
+    @media (min-width: 768px) {
+      max-width: 280px;
+      margin-bottom: 30px;
+    }
+    @media (min-width: 1366px) {
+      max-width: 350px;
+      margin-bottom: 0;
+    }
+  }
+  &__text-bot {
+  }
+  &__mainText {
+    max-width: 220px;
+    margin-bottom: 20px;
+    line-height: 160%;
+    @media (min-width: 768px) {
+      margin-bottom: 30px;
+      font-size: 18px;
+      max-width: 282px;
+    }
+    @media (min-width: 1366px) {
+      margin-bottom: 35px;
+      font-size: 28px;
+      max-width: 452px;
+      line-height: 180%;
+      font-weight: 500;
+    }
+  }
+  &__greenBorder {
+    width: 254px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px dashed #83bf0e;
+    font-size: 14px;
+    line-height: 180%;
+    font-style: normal;
+    @include flex-row-center;
+    @media (min-width: 768px) {
+      font-size: 24px;
+      width: 452px;
+      height: 61px;
+    }
+    @media (min-width: 1366px) {
+      font-size: 28px;
+      font-weight: 500;
+    }
+  }
+}

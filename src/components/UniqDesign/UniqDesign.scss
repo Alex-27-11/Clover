@@ -1,0 +1,363 @@
+@import "../../utils/mixins";
+
+.uniqDesign {
+  @include flex-column-spBetween;
+  min-height: 913px;
+  padding: 41px 0px 35px 0px;
+  background: url("../../assets/images/desc/UniqDesign/Bg.png");
+  overflow: hidden;
+  @media (min-width: 769px) {
+    padding: 90px 0px 70px 0px;
+  }
+  @media (min-width: 1366px) {
+    padding: 110px 0px 95px 0px;
+  }
+  &__container {
+    @include flex-column-center;
+  }
+  &__title {
+    max-width: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+    transition-property: transform;
+    transition-duration: 3s;
+    @media (min-width: 769px) {
+      max-width: 517px;
+      margin: 0 auto 70px auto;
+    }
+    @media (min-width: 1366px) {
+      margin: 0 auto 55px auto;
+    }
+  }
+  &__slider {
+    @include flex-column-spBetween;
+    margin-bottom: 70px;
+    width: 100%;
+    transition-property: transform;
+    transition-duration: 2s;
+    @media (min-width: 769px) {
+      min-height: 840px;
+      margin-bottom: 110px;
+    }
+    @media (min-width: 1366px) {
+      margin-bottom: 80px;
+    }
+  }
+  &__slider-top {
+    @include flex-column-spBetween;
+    margin-bottom: 30px;
+    width: 100%;
+    @media (min-width: 769px) {
+      margin-bottom: 90px;
+    }
+    @media (min-width: 1366px) {
+      flex-direction: row;
+      margin-bottom: 85px;
+    }
+  }
+  &__slider-buttonL-desc {
+    display: none;
+    width: 11px;
+    height: 23px;
+    background: url("../../assets/images/tabl/UniqDesign/ArrL.svg") 0 0/100%
+      auto no-repeat;
+    cursor: pointer;
+    @media (min-width: 1366px) {
+      display: inline-block;
+    }
+  }
+  &__slider-buttonR-desc {
+    display: none;
+    width: 11px;
+    height: 23px;
+    background: url("../../assets/images/tabl/UniqDesign/ArrR.svg") 0 0/100%
+      auto no-repeat;
+    cursor: pointer;
+    @media (min-width: 1366px) {
+      display: inline-block;
+    }
+  }
+  &__slider-img-box {
+    width: 100%;
+    max-width: 743px;
+  }
+  &__currentSlide {
+    display: none;
+  }
+  &__currentSlide_active {
+    opacity: 1;
+    transition-duration: 2s;
+    @include flex-column-center;
+  }
+  &__slider-img {
+  }
+  &__slider-buttons {
+    width: 144px;
+    height: 15px;
+    @include flex-row-spBetween;
+    @media (min-width: 769px) {
+      width: 298px;
+      height: 23px;
+    }
+    @media (min-width: 1366px) {
+      justify-content: center;
+    }
+  }
+  &__slider-buttonL {
+    width: 7px;
+    height: 15px;
+    background: url("../../assets/images/mobil/UniqDesign/ArrL.svg") 0 0/100%
+      auto no-repeat;
+    cursor: pointer;
+    @media (min-width: 769px) {
+      width: 11px;
+      height: 23px;
+      background: url("../../assets/images/tabl/UniqDesign/ArrL.svg") 0 0/100%
+        auto no-repeat;
+    }
+    @media (min-width: 1366px) {
+      display: none;
+    }
+  }
+  &__slider-bullets {
+    @include flex-row-spBetween;
+    width: 40px;
+    height: 12.5px;
+    @media (min-width: 769px) {
+      width: 64px;
+      height: 20px;
+    }
+  }
+  &__slider-bullet {
+    width: 6px;
+    height: 4px;
+    border-radius: 5px;
+    background: rgba(221, 227, 211, 1);
+    padding-bottom: 7px;
+    transition-property: transform;
+    transition-duration: 2s;
+    @media (min-width: 769px) {
+      width: 8px;
+      height: 8px;
+      border-radius: 8px;
+    }
+  }
+  &__slider-bullet_active {
+    width: 12.5px;
+    height: 12.5px;
+    border-radius: 12.5px;
+    background: #83ad32;
+    transition-property: transform;
+    transition-duration: 2s;
+    @media (min-width: 769px) {
+      width: 20px;
+      height: 20px;
+      border-radius: 20px;
+    }
+  }
+  &__slider-buttonR {
+    width: 7px;
+    height: 15px;
+    background: url("../../assets/images/mobil/UniqDesign/ArrR.svg") 0 0/100%
+      auto no-repeat;
+    cursor: pointer;
+    @media (min-width: 769px) {
+      width: 11px;
+      height: 23px;
+      background: url("../../assets/images/tabl/UniqDesign/ArrR.svg") 0 0/100%
+        auto no-repeat;
+    }
+    @media (min-width: 1366px) {
+      display: none;
+    }
+  }
+  &__slider-button-hidden {
+    width: 7px;
+    visibility: hidden;
+    @media (min-width: 769px) {
+      width: 11px;
+    }
+  }
+  &__func {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+  &__line {
+    margin-bottom: 10px;
+    transition-property: transform;
+    transition-duration: 3s;
+    @media (min-width: 769px) {
+      margin-bottom: 30px;
+    }
+    @media (min-width: 1366px) {
+      margin-bottom: 40px;
+    }
+  }
+  &__func-title {
+    color: #363b46;
+    margin-bottom: 20px;
+    transition-property: transform;
+    transition-duration: 2s;
+    @media (min-width: 769px) {
+      margin-bottom: 30px;
+    }
+    @media (min-width: 1366px) {
+      margin-bottom: 40px;
+    }
+  }
+  &__func-list {
+  }
+  &__func-it {
+    display: flex;
+    align-items: center;
+    line-height: 160%;
+    font-size: 14px;
+    margin-bottom: 25px;
+    transition-property: transform;
+    transition-duration: 2s;
+    @media (min-width: 769px) {
+      font-size: 20px;
+    }
+    @media (min-width: 1366px) {
+      margin-bottom: 18px;
+    }
+  }
+  &__func-it:last-child {
+    margin-bottom: 0;
+  }
+  &__func-it1 {
+  }
+  &__func-it2 {
+  }
+  &__func-it3 {
+  }
+  &__func-it4 {
+  }
+  &__func-it5 {
+  }
+  &__func-it1::before {
+    content: "";
+    width: 32px;
+    height: 42px;
+    background: url("../../assets/images/mobil/UniqDesign/Li1.svg") 0 4px
+      no-repeat;
+    margin-right: 10px;
+    transition-property: transform;
+    transition-duration: 2s;
+  }
+  &__func-it2::before {
+    content: "";
+    width: 52px;
+    height: 42px;
+    background: url("../../assets/images/mobil/UniqDesign/Li2.svg") 0 4px
+      no-repeat;
+    margin-right: 10px;
+    transition-property: transform;
+    transition-duration: 2s;
+  }
+  &__func-it3::before {
+    content: "";
+    width: 52px;
+    height: 42px;
+    background: url("../../assets/images/mobil/UniqDesign/Li3.svg") 0 4px
+      no-repeat;
+    margin-right: 10px;
+    transition-property: transform;
+    transition-duration: 2s;
+  }
+  &__func-it4::before {
+    content: "";
+    width: 52px;
+    height: 42px;
+    background: url("../../assets/images/mobil/UniqDesign/Li4.svg") 0 4px
+      no-repeat;
+    margin-right: 10px;
+    transition-property: transform;
+    transition-duration: 2s;
+  }
+  &__func-it5::before {
+    content: "";
+    width: 32px;
+    height: 42px;
+    background: url("../../assets/images/mobil/UniqDesign/Li5.svg") 0 4px
+      no-repeat;
+    margin-right: 10px;
+    transition-property: transform;
+    transition-duration: 2s;
+  }
+  @media (min-width: 769px) {
+    &__func-it1::before {
+      background: url("../../assets/images/tabl/UniqDesign/Li1.svg") 0 2px
+        no-repeat;
+      width: 60px;
+      height: 70px;
+      margin-right: 20px;
+    }
+    &__func-it2::before {
+      background: url("../../assets/images/tabl/UniqDesign/Li2.svg") 0 2px
+        no-repeat;
+      width: 60px;
+      height: 70px;
+      margin-right: 20px;
+    }
+    &__func-it3::before {
+      background: url("../../assets/images/tabl/UniqDesign/Li3.svg") 0 2px
+        no-repeat;
+      width: 60px;
+      height: 70px;
+      margin-right: 20px;
+    }
+    &__func-it4::before {
+      background: url("../../assets/images/tabl/UniqDesign/Li4.svg") 0 2px
+        no-repeat;
+      width: 60px;
+      height: 70px;
+      margin-right: 20px;
+    }
+    &__func-it5::before {
+      background: url("../../assets/images/tabl/UniqDesign/Li5.svg") 0 2px
+        no-repeat;
+      width: 60px;
+      height: 70px;
+      margin-right: 20px;
+    }
+  }
+  @media (min-width: 1366px) {
+    &__func-it1::before {
+      background: url("../../assets/images/desc/UniqDesign/Li1.svg") 0 2px
+        no-repeat;
+      width: 66px;
+      height: 76px;
+      margin-right: 40px;
+    }
+    &__func-it2::before {
+      background: url("../../assets/images/desc/UniqDesign/Li2.svg") 0 2px
+        no-repeat;
+      width: 66px;
+      height: 76px;
+      margin-right: 40px;
+    }
+    &__func-it3::before {
+      background: url("../../assets/images/desc/UniqDesign/Li3.svg") 0 2px
+        no-repeat;
+      width: 66px;
+      height: 76px;
+      margin-right: 40px;
+    }
+    &__func-it4::before {
+      background: url("../../assets/images/desc/UniqDesign/Li4.svg") 0 2px
+        no-repeat;
+      width: 66px;
+      height: 76px;
+      margin-right: 40px;
+    }
+    &__func-it5::before {
+      background: url("../../assets/images/desc/UniqDesign/Li5.svg") 0 2px
+        no-repeat;
+      width: 66px;
+      height: 76px;
+      margin-right: 40px;
+    }
+  }
+}
